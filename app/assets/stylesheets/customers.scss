@@ -1,0 +1,44 @@
+// Place all the styles related to the customers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  padding: 20px;
+  background: blanchedalmond;
+}
+
+nav {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+a {
+  padding: 5px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 30px;
+  margin: 0 auto 30px;
+  max-width: 1500px;
+}
+
+.container {
+  border: 2px solid blueviolet;
+  border-radius: 8px;
+  width: 320px;
+  max-height: 800px;
+  text-align: left;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.container * {
+  padding: 10px;
+  margin: auto;
+}

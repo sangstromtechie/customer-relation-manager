@@ -9,6 +9,10 @@
   </head>
 
   <body>
+  <%= render partial: 'shared/header' %>
+  <%= render partial: 'shared/title' %>
+  <div class="wrapper">
     <%= yield %>
+  </div>
   </body>
 </html>
